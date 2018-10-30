@@ -9,6 +9,7 @@ module: {
   rules: [{
     test: /\.ts$/,
     use: {
+      loader: 'typedoc-loader',
       options: {
         // All options are passed to typedoc.
         // https://github.com/TypeStrong/typedoc#arguments
