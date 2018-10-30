@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`writes a module exporting TypeDoc JSON 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "comment": Object {
+                "shortText": "The date the animal was born",
+              },
+              "flags": Object {
+                "isAbstract": true,
+                "isExported": true,
+                "isPublic": true,
+              },
+              "id": 7,
+              "kind": 1024,
+              "kindString": "Property",
+              "name": "birthday",
+              "sources": Array [
+                Object {
+                  "character": 26,
+                  "fileName": "test-file.ts",
+                  "line": 17,
+                },
+              ],
+              "type": Object {
+                "name": "Date",
+                "type": "reference",
+              },
+            },
+            Object {
+              "flags": Object {
+                "isExported": true,
+                "isPublic": true,
+              },
+              "id": 3,
+              "kind": 2048,
+              "kindString": "Method",
+              "name": "walk",
+              "signatures": Array [
+                Object {
+                  "comment": Object {
+                    "shortText": "Ambulates one way or another at some speed",
+                  },
+                  "flags": Object {},
+                  "id": 4,
+                  "kind": 4096,
+                  "kindString": "Call signature",
+                  "name": "walk",
+                  "parameters": Array [
+                    Object {
+                      "comment": Object {
+                        "text": "The speed at which to walk in meters per second",
+                      },
+                      "flags": Object {},
+                      "id": 5,
+                      "kind": 32768,
+                      "kindString": "Parameter",
+                      "name": "speed",
+                      "type": Object {
+                        "name": "number",
+                        "type": "intrinsic",
+                      },
+                    },
+                    Object {
+                      "comment": Object {
+                        "text": "Which direction in which to walk
+",
+                      },
+                      "flags": Object {},
+                      "id": 6,
+                      "kind": 32768,
+                      "kindString": "Parameter",
+                      "name": "direction",
+                      "type": Object {
+                        "type": "union",
+                        "types": Array [
+                          Object {
+                            "type": "stringLiteral",
+                            "value": "this way",
+                          },
+                          Object {
+                            "type": "stringLiteral",
+                            "value": "that way",
+                          },
+                        ],
+                      },
+                    },
+                  ],
+                  "type": Object {
+                    "name": "void",
+                    "type": "intrinsic",
+                  },
+                },
+              ],
+              "sources": Array [
+                Object {
+                  "character": 13,
+                  "fileName": "test-file.ts",
+                  "line": 10,
+                },
+              ],
+            },
+          ],
+          "comment": Object {
+            "shortText": "Neither a vegetable nor a mineral",
+          },
+          "flags": Object {
+            "isAbstract": true,
+            "isExported": true,
+          },
+          "groups": Array [
+            Object {
+              "children": Array [
+                7,
+              ],
+              "kind": 1024,
+              "title": "Properties",
+            },
+            Object {
+              "children": Array [
+                3,
+              ],
+              "kind": 2048,
+              "title": "Methods",
+            },
+          ],
+          "id": 2,
+          "kind": 128,
+          "kindString": "Class",
+          "name": "Animal",
+          "sources": Array [
+            Object {
+              "character": 28,
+              "fileName": "test-file.ts",
+              "line": 4,
+            },
+          ],
+        },
+      ],
+      "flags": Object {
+        "isExported": true,
+      },
+      "groups": Array [
+        Object {
+          "children": Array [
+            2,
+          ],
+          "kind": 128,
+          "title": "Classes",
+        },
+      ],
+      "id": 1,
+      "kind": 1,
+      "kindString": "External module",
+      "name": "\\"test-file\\"",
+      "originalName": "C:/Users/Igor/repos/typedoc-loader/test/test-file.ts",
+      "sources": Array [
+        Object {
+          "character": 0,
+          "fileName": "test-file.ts",
+          "line": 1,
+        },
+      ],
+    },
+  ],
+  "flags": Object {},
+  "groups": Array [
+    Object {
+      "children": Array [
+        1,
+      ],
+      "kind": 1,
+      "title": "External modules",
+    },
+  ],
+  "id": 0,
+  "kind": 0,
+  "name": "typedoc-loader",
+}
+`;

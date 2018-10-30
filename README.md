@@ -7,12 +7,10 @@ A Webpack loader that converts TypeScript to [TypeDoc](http://typedoc.org) JSON.
 ```js
 module: {
   rules: [{
-    test: /\.md$/,
+    test: /\.ts$/,
     use: {
-      loader: 'typedoc-loader',
       options: {
-        // All options are passed to typedoc, except `mode` which is always `file`,
-        // and `json` which is always `true`.
+        // All options are passed to typedoc.
         // https://github.com/TypeStrong/typedoc#arguments
       }
   }]

@@ -14,7 +14,6 @@ module.exports = (fixture, options) => {
       rules: [{
         test: /\.ts$/,
         use: [
-          'json-loader',
           {
             loader: path.resolve(__dirname, '../lib/loader.js'),
             options
